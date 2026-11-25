@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_version">
     <sn_aia_version action="INSERT_OR_UPDATE">
+        <base_version/>
+        <change_description/>
         <condition/>
+        <eval_score/>
         <instructions>The Business Process details are represented in a structured JSON format. During the interview, users will provide more insights and details about the process. Whenever new insights are provided by the user, the JSON representation should be updated and the Business Process details should be updated using the tool. It is important to update the Business Process details as soon as possible.&#13;
 &#13;
 The JSON structure of the Business Process should be based on the STRUCTURE of the Business Process Example JSON that can be retrieved using a tool. Of course, you must only use the structure of the example, not the contents of the example.&#13;
@@ -58,6 +61,9 @@ Do not ask too many questions at the same time: Ask one or two questions in one 
 From time to time, summarize what you understood so far and ask the user to confirm.&#13;
 &#13;
 Do not stop the interview at any time. If the stakeholder continues to provide answers, continue asking.</instructions>
+        <layer>overlay</layer>
+        <short_description/>
+        <snapshot/>
         <state>published</state>
         <sys_class_name>sn_aia_version</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -73,6 +79,7 @@ Do not stop the interview at any time. If the stakeholder continues to provide a
         <sys_update_name>sn_aia_version_70b9ac612b037e109083fe395e91bfb0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-03-26 10:42:55</sys_updated_on>
+        <tags/>
         <target_id>c7a828ed2bcf3e109083fe395e91bf64</target_id>
         <target_table>sn_aia_agent</target_table>
         <version_name>V1</version_name>
