@@ -63,8 +63,18 @@
 		<g2:no_escape>$[
 			docapi.RenderInstallationInstructionsAppInstall();
 		]</g2:no_escape>		
-		<!--<li>TODO: Add further steps required for installation...</li>-->
 	</ol>
+
+	<h2>Setup Interviews</h2>
+	<p>To gather insights from process stakeholders, some setup is required. For each distinct business process, follow these steps:</p>
+	<ol>
+		<li>Assign the x_snc_agenticbpc.consultant to the user who owns the requirement intake process - ideally by assigning the role and the user(s) to a group. Do not assign roles directly to users.</li>
+		<li>Identify the stakeholder users and assign the role x_snc_agenticbpc.stakeholder to these users - here again by adding the role and these identified users to a group.</li>
+		<li>Create the Business Process record, add a name and a high-level description.</li>
+		<li>For each stakeholder user, create a stakeholder record the associates the stakeholder user with the business process.</li>
+		<li>Use the button "Invite Stakeholder" on the stakeholder form to either send an email directly or display the email body text to be sent to the stakeholder (depends on whether smtp is active on the instance and whether user has a configured email address).</li>
+	</ol>
+	<p>Once all steps have been completed, users can use the link contained in the invitation to navigate to the business process form and start the interview.</p>
 
 <!--
 	<h2>Features</h2> 
@@ -126,6 +136,7 @@
 		<li>DevTools 1.148.0 is now required.</li>
 		<li>Added dependency to "App Engine - Prime" Store App.</li>
 		<li>The process viewer now renders a state and a swimlane diagramme.</li>
+		<li>Added chapter "Setup Interviews" to the manual.</li>
 	</ol>
 
 
@@ -141,13 +152,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-11 16:53:01</sys_created_on>
         <sys_id>c7cf2e3c2b0f36109083fe395e91bf71</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>manual</sys_name>
         <sys_package display_value="AgenticBPC WORK IN PROGRESS" source="x_snc_agenticbpc">672e2a382b0f36109083fe395e91bf3e</sys_package>
         <sys_policy/>
         <sys_scope display_value="AgenticBPC WORK IN PROGRESS">672e2a382b0f36109083fe395e91bf3e</sys_scope>
         <sys_update_name>sys_ui_page_c7cf2e3c2b0f36109083fe395e91bf71</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-25 08:42:57</sys_updated_on>
+        <sys_updated_on>2026-11-25 12:18:23</sys_updated_on>
     </sys_ui_page>
 </record_update>
